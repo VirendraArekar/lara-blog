@@ -35,7 +35,7 @@
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <!-- Left Side Of Navbar -->
                     <ul class="navbar-nav mr-auto">
-                        <!-- <li><a class="nav-link" href="{{ url('/blog') }}">Blogs</a></li> -->
+                        <li><a class="nav-link" href="{{ url('/blog/create') }}">Create Blogs</a></li>
                     </ul>
 
                     <!-- Right Side Of Navbar -->
@@ -71,6 +71,11 @@
         <main class="py-4">
             @yield('content')
         </main>
+
+            <footer>
+                <h3>Created By:<b>Virendra Arekar</b>     &copy;<?php echo date('Y'); ?></h3>
+            </footer>
+
     </div>
 </body>
 </html>
