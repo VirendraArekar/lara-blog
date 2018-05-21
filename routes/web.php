@@ -15,3 +15,6 @@ Route::group(['middleware' => ['web']], function () {
     Route::get('admin-login', 'AdminAuth\AuthController@adminLogin');
     Route::post('admin-login', ['as'=>'admin-login','uses'=>'AdminAuth\AuthController@adminLoginPost']);
 });
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');
