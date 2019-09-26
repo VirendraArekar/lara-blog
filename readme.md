@@ -11,7 +11,7 @@ Procedure
   .Browse your project folder and run
       php artisan migration
 
-      .Will insert all table into database
+      .thats command will create the all neccessary database table.
    .Browse Your Project
    .Enjoy
 
